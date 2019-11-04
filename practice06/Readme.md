@@ -35,7 +35,7 @@ wire [41:0] six_digit_seg;
 assign      six_digit_seg={3{seg_left, seg_right}}
 
 ##결과
-###**Top Module의 DUT/TestBench Code 및 Waveform 검증**
+###**Top Module의 DUT/TestBench Code 및 Waveform 검증 & FPGA 동작 사진**
 ![](https://github.com/Chayejin0428/LogicDesign/blob/master/practice06/figs/KakaoTalk_20191104_191035101_01.jpg)
 
 ![](https://github.com/Chayejin0428/LogicDesign/blob/master/practice06/figs/KakaoTalk_20191104_191035101_02.jpg)
@@ -46,5 +46,5 @@ assign      six_digit_seg={3{seg_left, seg_right}}
 
 ![](https://github.com/Chayejin0428/LogicDesign/blob/master/practice06/figs/practice06-wave(3).PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODEwNjczNiwtNzgxNDk2MDQwXX0=
+eyJoaXN0b3J5IjpbLTE2OTAyMzI3OTAsLTc4MTQ5NjA0MF19
 -->
