@@ -34,6 +34,13 @@ assign      six_digit_seg={4{7'b1110111}, seg_left, seg_right}
 wire [41:0] six_digit_seg;
 assign      six_digit_seg={3{seg_left, seg_right}}
 
+##결과
+![]https://github.com/Chayejin0428/LogicDesign/blob/master/practice06/figs/KakaoTalk_20191104_191035101_01.jpg
+![]https://github.com/Chayejin0428/LogicDesign/blob/master/practice06/figs/KakaoTalk_20191104_191035101_02.jpg
+![]https://github.com/Chayejin0428/LogicDesign/blob/master/practice06/figs/practice06-wave(1).PNG
+![]https://github.com/Chayejin0428/LogicDesign/blob/master/practice06/figs/practice06-wave(2).PNG
+![]https://github.com/Chayejin0428/LogicDesign/blob/master/practice06/figs/practice06-wave(3).PNG
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbOTIyNTI1OTAwXX0=
