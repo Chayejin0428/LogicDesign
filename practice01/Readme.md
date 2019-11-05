@@ -17,3 +17,6 @@
 ![] https://github.com/Chayejin0428/LogicDesign/blob/master/practice01/fig/%EC%9B%A8%EC%9D%B4%EB%B8%8C.PNG
 ![] https://github.com/Chayejin0428/LogicDesign/blob/master/practice01/fig/%ED%9A%8C%EB%A1%9C.PNG
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTE1OTc2NjgyNF19
+-->
