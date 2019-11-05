@@ -18,6 +18,11 @@
 
 ### **Top Module의 DUT/TestBench Code 및 Waveform 검증 & FPGA 동작 사진**
 
+![] https://github.com/Chayejin0428/LogicDesign/blob/master/practice02/fig/wave02.PNG
+
+![] https://github.com/Chayejin0428/LogicDesign/blob/master/practice02/fig/wave02-2.PNG
+
+
 
 
 <!--stackedit_data:
