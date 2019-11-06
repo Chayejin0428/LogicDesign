@@ -13,7 +13,7 @@
 Test Bench 
 - 모든 입력 Case 반드시 포함
 
-### **Latch & Flip-Flop **
+### **Latch & Flip-Flop**
 
 #### **Latch & Flip-Flop**
 -D Latch 
