@@ -78,7 +78,7 @@ end
 
 endmodule
 ```
-![](https://github.com/Chayejin0428/LogicDesign/blob/master/practice05/figs/practice05_quiz2.PNG)
+![]()
 
 Q2 답 : .num ( 32'd100000000 ),
 
@@ -94,5 +94,5 @@ Blocking & Non-Blocking
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0NDk0NDgxXX0=
+eyJoaXN0b3J5IjpbNTYxMTM1NTE3LDQ0NDQ5NDQ4MV19
 -->
