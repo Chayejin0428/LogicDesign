@@ -4,10 +4,12 @@
 
 ### **1-bit Full Adder (FA) Design & 4-bit Adder Design**
 
-#### **1-bit Full Adder (FA) Design **
+#### **1-bit Full Adder (FA) Design** 
 : 3 Different Coding Style (Dataflow, Behavior, Case) 
-• Synthesizable Verilog (RTL) 및 Test Bench Code 제출 
-• Waveform, Display ($display) 화면 캡쳐 후 제출
+
+- Synthesizable Verilog (RTL) 및 Test Bench Code 제출 
+
+ - Waveform, Display ($display) 화면 캡쳐 후 제출
 
 #### **4-bit Adder Design**
 : 1-bit Full Adder (FA) 4개를 사용하여 Design 
@@ -26,5 +28,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODQ3OTEzM119
+eyJoaXN0b3J5IjpbLTE0MTYwMzcyMTNdfQ==
 -->

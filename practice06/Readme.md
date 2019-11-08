@@ -16,7 +16,7 @@
 ### FPGA 실습
 : 6개의 LED 중 가장 오른쪽 2개의 LED에 1초 간격으로 0~59까지 증가하는 Counter 값 Display
 
-: NCO 입력 바꿔서 4초 간격으로 증가하는 코드 테스트
+ NCO 입력 바꿔서 4초 간격으로 증가하는 코드 테스트
 
 ## 퀴즈
 
@@ -27,7 +27,7 @@ wire [41:0] six_digit_seg;
 assign	    six_digit_seg={4{7'b0000000}, seg_left, seg_right};
 ```
 
-### >Q1-고정 LED (왼쪽 4개) AAAA 출력
+### Q1-고정 LED (왼쪽 4개) AAAA 출력
 
 ```verilog
 wire [41:0] six_digit_seg;
@@ -55,5 +55,5 @@ assign      six_digit_seg = {3{seg_left, seg_right}};
 
 ![](https://github.com/Chayejin0428/LogicDesign/blob/master/practice06/figs/practice06-wave(3).PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDAxMDEwNDddfQ==
+eyJoaXN0b3J5IjpbLTEyOTYwMDEyMTldfQ==
 -->
