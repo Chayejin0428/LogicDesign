@@ -391,80 +391,80 @@ input		i_sw0		;
 input		i_sw1		;
 input		i_sw2		;
 input		clk		;
-input		rst_n	;
+input		rst_n		;
 
 wire i_max_hit_min		;
 wire i_max_hit_sec		;
 controller	u_ctrl(
-			.o_mode		(),
-			.o_position		(),
-			.o_sec_clk		(o_sec_clk),
-			.o_min_clk		(o_min_clk),
-			.i_max_hit_sec		(i_max_hit_sec),
-			.i_max_hit_min		(i_max_hit_min),
-			.i_sw0		(i_sw0),
-			.i_sw1		(i_sw1),
-			.i_sw2		(i_sw2),
-			.clk		(clk),
-			.rst_n		(rst_n));
+			.o_mode(),
+			.o_position(),
+			.o_sec_clk(o_sec_clk),
+			.o_min_clk(o_min_clk),
+			.i_max_hit_sec(i_max_hit_sec),
+			.i_max_hit_min(i_max_hit_min),
+			.i_sw0(i_sw0),
+			.i_sw1(i_sw1),
+			.i_sw2(i_sw2),
+			.clk(clk),
+			.rst_n(rst_n));
 
 wire	[5:0]	o_sec		;
 wire	[5:0]	o_min		;
-minsec		u_minsec(
-			.o_sec		(o_sec),
-			.o_min		(o_min),
-			.o_max_hit_sec		(i_max_hit_sec),
-			.o_max_hit_min		(i_max_hit_min),
-			.i_sec_clk		(o_sec_clk),
-			.i_min_clk		(o_min_clk),
-			.clk		(clk),
-			.rst_n		(rst_n));
+minsec	u_minsec(
+			.o_sec(o_sec),
+			.o_min(o_min),
+			.o_max_hit_sec(i_max_hit_sec),
+			.o_max_hit_min(i_max_hit_min),
+			.i_sec_clk(o_sec_clk),
+			.i_min_clk(o_min_clk),
+			.clk(clk),
+			.rst_n(rst_n));
 
 wire	[3:0]	o_left_1		;
 wire	[3:0]	o_right_1		;
 wire	[3:0]	o_left_2		;
 wire	[3:0]	o_right_2		;
-double_fig_sep			u0_dfs(
-				.o_left		(o_left_1),
-				.o_right		(o_right_1),
-				.i_double_fig		(o_sec));
+double_fig_sep	u0_dfs(
+				.o_left(o_left_1),
+				.o_right(o_right_1),
+				.i_double_fig(o_sec));
 
-double_fig_sep			u1_dfs(
-				.o_left		(o_left_2),
-				.o_right		(o_right_2),
-				.i_double_fig		(o_min));
+double_fig_sep	u1_dfs(
+				.o_left(o_left_2),
+				.o_right(o_right_2),
+				.i_double_fig(o_min));
 
 wire	[6:0]	o_seg1		;
 wire	[6:0]	o_seg2		;
 wire	[6:0]	o_seg3		;
 wire	[6:0]	o_seg4		;
 fnd_dec		u0_fnd_dec(
-				.o_seg		(o_seg1),
-				.i_num		(o_left_1));
+				.o_seg(o_seg1),
+				.i_num(o_left_1));
 
 fnd_dec		u1_fnd_dec(
-				.o_seg		(o_seg2),
-				.i_num		(o_right_1));
+				.o_seg(o_seg2),
+				.i_num(o_right_1));
 
 fnd_dec		u2_fnd_dec(
-				.o_seg		(o_seg3),
-				.i_num		(o_left_2));
+				.o_seg(o_seg3),
+				.i_num(o_left_2));
 
 fnd_dec		u3_fnd_dec(
-				.o_seg		(o_seg4),
-				.i_num		(o_right_2));
+				.o_seg(o_seg4),
+				.i_num(o_right_2));
 	
 wire	[41:0]	in_six_digit_seg		;
 
-assign	in_six_digit_seg	=	{{2{7'd0}}, o_seg3, o_seg4, o_seg1, o_seg2} ;
+assign	in_six_digit_seg	=	{{2{7'd0}}, o_seg3, o_seg4, o_seg1, o_seg2}	;
 
 led_disp	u_led_disp(
-				.o_seg		(o_seg),
-				.o_seg_dp		(o_seg_dp),
-				.o_seg_enb		(o_seg_enb),
-				.i_six_digit_seg		(in_six_digit_seg),
-				.i_six_dp		(i_six_dp),
-				.clk		(clk),
-				.rst_n		(rst_n));
+				.o_seg(o_seg),
+				.o_seg_dp(o_seg_dp),
+				.o_seg_enb(o_seg_enb),
+				.i_six_digit_seg(in_six_digit_seg),
+				.i_six_dp(i_six_dp),
+				.clk(clk),
+				.rst_n(rst_n));
 
 endmodule
