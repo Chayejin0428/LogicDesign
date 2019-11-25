@@ -20,7 +20,8 @@
 
  - 리모컨 송신 신호 
    - NEC 적외선 통신 규약 (NEC Infrared Transmission Protocol) 
-   -Leader Code : 프레임의 모드 선택 
+  
+  -Leader Code : 프레임의 모드 선택 
    -Custom Code : 특정 회사를 나타냄 
    -Data Code : 송신 데이터 (데이터 확인 위해 보수 신호도 보냄)
 
@@ -255,5 +256,5 @@ endmodule
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDUxNTkwMl19
+eyJoaXN0b3J5IjpbLTExMzE3MzY0NzYsLTUyMDUxNTkwMl19
 -->
