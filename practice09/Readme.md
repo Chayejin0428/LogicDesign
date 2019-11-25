@@ -60,7 +60,7 @@ nco		u_nco(
 		.rst_n		( rst_n		));
 
 //		Sequential Rx Bits
-
+//		실제 작동 과정에서 반대로 나타나므로 ir_rx = ~i_ir_rxb
 wire		ir_rx		;
 assign		ir_rx = ~i_ir_rxb;
 
@@ -259,5 +259,5 @@ endmodule
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTc4OTYyXX0=
+eyJoaXN0b3J5IjpbLTEwNjcyNzU2NDIsLTI5OTc4OTYyXX0=
 -->
