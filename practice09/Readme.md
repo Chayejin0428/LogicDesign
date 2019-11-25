@@ -10,7 +10,7 @@
  
 - IR 통신 방법 : 송신부 
   - 적외선 발광 다이오드 (Infrared Rays Emitting Diode, RED) 
-    -외형은 LED처럼 생겼지만, 가시광선이 아닌 적외선을 발생
+     - 외형은 LED처럼 생겼지만, 가시광선이 아닌 적외선을 발생
  
   
 - IR 통신 방법 : 수신부
@@ -22,7 +22,7 @@
 
  - 리모컨 송신 신호 
    - NEC 적외선 통신 규약 (NEC Infrared Transmission Protocol) 
-  Leader Code : 프레임의 모드 선택 
+     - Leader Code : 프레임의 모드 선택 
    
      - Custom Code : 특정 회사를 나타냄 
    
@@ -259,5 +259,5 @@ endmodule
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjY4NTc1NywtNTIwNTE1OTAyXX0=
+eyJoaXN0b3J5IjpbLTI5OTc4OTYyXX0=
 -->
