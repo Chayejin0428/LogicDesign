@@ -15,15 +15,18 @@
   
 - IR 통신 방법 : 수신부
   - 포토다이오드 (Photodiode) 
-    -빛에너지를 전기에너지로 바꾸어 전류 생성 
-    -보통 포토다이오드의 경우 검정색
+    
+    - 빛에너지를 전기에너지로 바꾸어 전류 생성 
+    
+    - 보통 포토다이오드의 경우 검정색
 
  - 리모컨 송신 신호 
    - NEC 적외선 통신 규약 (NEC Infrared Transmission Protocol) 
-  
-  -Leader Code : 프레임의 모드 선택 
-   -Custom Code : 특정 회사를 나타냄 
-   -Data Code : 송신 데이터 (데이터 확인 위해 보수 신호도 보냄)
+  Leader Code : 프레임의 모드 선택 
+   
+     - Custom Code : 특정 회사를 나타냄 
+   
+     - Data Code : 송신 데이터 (데이터 확인 위해 보수 신호도 보냄)
 
 ### 코드 일부
 ```
@@ -256,5 +259,5 @@ endmodule
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzE3MzY0NzYsLTUyMDUxNTkwMl19
+eyJoaXN0b3J5IjpbMTcwNjY4NTc1NywtNTIwNTE1OTAyXX0=
 -->
